@@ -490,54 +490,61 @@
           </svg>
         </button>
         <form action="" class="modal-form">
-          <p>Залиште свої дані, ми вам передзвонимо</p>
-          <div class="form-field">
-            <label for="user-name" clas="form-label">Ім'я</label>
+          <p class="modal-heading">Залиште свої дані, ми вам передзвонимо</p>
+
+          <div class="form-container">
+            <div class="form-field">
+              <label for="user-name" clas="form-label">Ім'я</label>
+              <input
+                type="text"
+                name="user-name"
+                id="user-name"
+                class="form-input"
+              />
+            </div>
+
+            <div class="form-field">
+              <label for="user-tel" clas="form-label">Телефон</label>
+              <input
+                type="tel"
+                name="user-tel"
+                id="user-tel"
+                class="form-input"
+              />
+            </div>
+
+            <div class="form-field">
+              <label for="user-email" clas="form-label">Пошта</label>
+              <input
+                type="email"
+                name="user-email"
+                id="user-email"
+                class="form-input"
+              />
+            </div>
+
+            <div class="form-field">
+              <label for="user-comment" clas="form-label">Коментар</label>
+              <textarea
+                name="user-comment"
+                id="user-comment"
+                rows="10"
+                placeholder="Введіть текст"
+                class="form-text"
+              ></textarea>
+            </div>
+          </div>
+
+          <div class="form-field-check">
             <input
-              type="text"
-              name="user-name"
-              id="user-name"
-              class="form-input"
-              placeholder="Name"
+              type="checkbox"
+              name="policy"
+              id="policy"
+              class="checkbox-input"
             />
-          </div>
-
-          <div class="form-field">
-            <label for="user-tel" clas="form-label">Телефон</label>
-            <input
-              type="tel"
-              name="user-tel"
-              id="user-tel"
-              class="form-input"
-            />
-          </div>
-
-          <div class="form-field">
-            <label for="user-email" clas="form-label">Пошта</label>
-            <input
-              type="email"
-              name="user-email"
-              id="user-email"
-              class="form-input"
-            />
-          </div>
-
-          <div class="form-field">
-            <label for="user-comment" clas="form-label">Коментар</label>
-            <textarea
-              name="user-comment"
-              id="user-comment"
-              rows="10"
-              placeholder="Введіть текст"
-              class="form-text"
-            ></textarea>
-          </div>
-
-          <div class="form-field">
-            <input type="checkbox" name="policy" id="policy" />
             <label for="policy" class="label-checkbox"
               >Погоджуюся з розсилкою та приймаю
-              <span>Умови договору</span></label
+              <a href="" class="policy-link">Умови договору</a></label
             >
           </div>
 
