@@ -681,8 +681,7 @@ img {
 }
 
 .works-btn:hover,
-.works-btn:focus,
-.current {
+.works-btn:focus {
   color: var(--btn-text-color);
   background-color: var(--accent-color);
   border-color: var(--accent-color);
