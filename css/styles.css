@@ -525,7 +525,6 @@ img {
 }
 
 .second-container {
-  /* padding: 10px 0 0 0; */
   margin-right: 93px;
 }
 
@@ -576,10 +575,6 @@ img {
   fill: currentColor;
 }
 
-.third-container {
-  /* padding: 10px 0 0 0; */
-}
-
 .footer-field {
   display: flex;
 }
@@ -605,8 +600,8 @@ img {
   border-radius: 4px;
   background: none;
   font-size: 16px;
-  list-style: calc(20 / 16);
-  color: #ffffff;
+  line-height: calc(20 / 16);
+  color: var(--secondary-heading-color);
 }
 
 .footer-btn {
@@ -622,6 +617,7 @@ img {
   color: var(--btn-text-color);
   background-color: var(--accent-color);
   border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   /* border-color: var(--accent-color); */
   cursor: pointer;
 
